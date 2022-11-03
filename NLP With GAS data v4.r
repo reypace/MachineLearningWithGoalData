@@ -120,8 +120,7 @@ dat2=dat[,colnames(dat)%in%c('Goal.Description','Category..Academic.or.Other.')]
   #compare with the actual
   compare=cbind.data.frame(predicted,actual)
   1-length(  which(rowSums(compare)==1))/nrow(dtm4) #% correct!
-  
-  #so we get 90% correct! Really, thats awesome!
+
   
 
 #out of curiosity, what happens with logistic?
